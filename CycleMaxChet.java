@@ -11,7 +11,7 @@ public class CycleMaxChet {
 
         while (screen.hasNextInt()) {
             int y = screen.nextInt();
-            if ((y > maxChet) && ((y % 2) == 0))
+            if ((y > maxChet) && ((y % 2) == 0)) //максимум четное число
                 maxChet = y;
         }
 
