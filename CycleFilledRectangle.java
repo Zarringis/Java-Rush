@@ -1,7 +1,6 @@
 public class CycleFilledRectangle {
-
     /*
-4. 4 Заполненный прямоугольник
+4. 3 Заполненный прямоугольник
 */
     public static void main(String[] args) {
         int x = 0;

@@ -1,7 +1,7 @@
 public class CycleRectangle {
 
     /*
-4. 4 Незаполненный прямоугольник
+4. 3 Незаполненный прямоугольник
 */
     public static void main(String[] args) {
         int a = 1; //нужен один цикл
