@@ -6,20 +6,22 @@ import java.util.Scanner;
 
 public class Cycle2ndMin {
     //пока не знаю как вывести в минемальное число
-    
+
     public static void main(String[] args) {
         Scanner screen = new Scanner(System.in);
         int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
+        int min2 = Integer.MAX_VALUE;
 
         while (screen.hasNextInt()) {
             int x = screen.nextInt();
-            if (x < min)
+            if (x < min) {
+                if (min < min2)
+                    min2 = min;
                 min = x;
-            if (x > max)
-                max = x;
+            } else if (x < min2 && x > min)
+                min2 = x;
+            //System.out.println("min = " + min + " min2 = " + min2);  проверка с спомощью Print (не дэбаг)
         }
-
-        System.out.println(min);
+        System.out.println(min2);
     }
 }
