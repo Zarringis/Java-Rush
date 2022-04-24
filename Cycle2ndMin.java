@@ -5,7 +5,6 @@ import java.util.Scanner;
 */
 
 public class Cycle2ndMin {
-    //пока не знаю как вывести в минемальное число
 
     public static void main(String[] args) {
         Scanner screen = new Scanner(System.in);
