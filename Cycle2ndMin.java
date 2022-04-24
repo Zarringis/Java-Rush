@@ -5,7 +5,6 @@ import java.util.Scanner;
 */
 
 public class Cycle2ndMin {
-
     public static void main(String[] args) {
         Scanner screen = new Scanner(System.in);
         int min = Integer.MAX_VALUE;
