@@ -8,17 +8,16 @@ import java.util.Scanner;
  * если пессимист (false) и до целого числа вверх (1), если оптимист (true).
  */
 public class CycleEmptyGlass {
-    //В ПРОЦЕССЕ решения
     public static void main(String[] args) {
-        double glass = 0.4;
+        double glass = 0.5;
         Scanner kb = new Scanner(System.in);
         boolean optimist = kb.nextBoolean();
         int opt = (int) Math.ceil(glass);
-        int piss = (int) Math.floor(glass);
+        int pess = (int) Math.floor(glass);
 
-        if (true)
-        System.out.println(opt);
+        if (optimist)
+            System.out.println(opt);
         else
-        System.out.println(piss);
+            System.out.println(pess);
     }
 }
